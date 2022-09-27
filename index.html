@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Proposal</title>
+</head>
+<body>
+    <div class="main">
+    <h1 id="text"></h1>
+</div>
+    <script>
+        let response = prompt("Pwede bang Maging Tayo? O o Hindi");
+        let outputText= "";
+
+        if (response =="Oo"){
+            outputText = "tara na at mag pa kasal";
+        }
+        else if ( response == "Hindi" ){
+            outputText= "sadboy nako papakamatay naako";
+        }
+        else{
+            outputText= " sagutan mo!"
+        }
+        document.getElementById("text").innerHTML=outputText;
+    </script>
+</body>
+</html>
