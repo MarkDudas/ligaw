@@ -12,13 +12,19 @@
     <h1 id="text"></h1>
 </div>
     <script>
-        let response = prompt("Pwede bang Maging Tayo? O o Hindi");
+        let response = prompt("Pwede bang Maging Tayo? Oo o Hindi?");
         let outputText= "";
 
-        if (response =="Oo"){
+        if (response =="Oo" ){
             outputText = "tara na at mag pa kasal";
         }
+        else if (response == "oo"){
+            outputText = "tara na at mag pa kasal ";
+        }
         else if ( response == "Hindi" ){
+            outputText= "sadboy nako papakamatay naako";
+        }
+        else if ( response == "hindi" ){
             outputText= "sadboy nako papakamatay naako";
         }
         else{
